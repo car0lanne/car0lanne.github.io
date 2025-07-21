@@ -1,24 +1,69 @@
-.button {
-  background-color: green;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+body {
+background-image:url('');
+font-family: monospace;
+color: black;
+font-size: 1em;
+}
+
+a {
+color: blue;
+text-decoration: none;
+}
+
+a:hover {
+color: darkslateblue;
+text-decoration: none;
 }
 
 .button {
-  background-color: white; 
-  color: black; 
-  border: 2px solid green;
+background-color: lavender;
+border: none;
+font-family: monospace;
+color: white;
+padding: 16px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 1em;
+margin: 2px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button {
+background-color: white; 
+color: black; 
+border: 2px solid darkslateblue;
+border-radius: 10px;
 }
 
 .button:hover {
-  background-color: green;
-  color: white;
+background-color: darkslateblue;
+color: white;
 }
+
+.container {
+    background: ghostwhite;
+    max-width: 700px;
+    margin: 3em;
+color: black;
+border-radius: 10px;
+outline-color: darkslateblue;
+outline-style: solid;
+outline-width: 5px;
+outline-offset: 0;
+box-shadow: 10px 10px lavender;
+}
+
+.content {
+padding: 10px 5% 20px 5%;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+	.small {
+		max-width: 60%;
+		height: auto;
+	}
