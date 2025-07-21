@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>carolanne's website!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+<div class="bar">
+  <button class="button" onclick="openCity('About')">About</button>
+  <button class="button" onclick="openCity('Skills')">Skills</button>
+  <button class="button" onclick="openCity('Contact')">Contact</button>
+</div>
+
+<div id="About" class="thingy">
+  <h2>About</h2>
+  <p>I am a meat popsicle.</p>
+</div>
+
+<div id="Skills" class="thingy" style="display:none">
+  <h2>Skills</h2>
+  <p>I can make very simple websites.</p> 
+</div>
+
+<div id="Contact" class="thingy" style="display:none">
+  <h2>Contact</h2>
+  <p>I like messages!</p>
+</div>
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
+
+</body>
+</html>
