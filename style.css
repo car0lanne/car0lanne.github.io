@@ -1,0 +1,91 @@
+body {
+    background-image:url('bg.png');
+    font-family: monospace;
+    color: black;
+    font-size: 1em;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.button {
+    background-color: lavender;
+    border: none;
+    font-family: monospace;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: ghostwhite;
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 3em;
+    color: black;
+    border-radius: 10px;
+    outline-color: darkslateblue;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-offset: 0;
+    box-shadow: 10px 10px lavender;
+    text-align: left !important;
+}
+
+.content {
+    padding: 20px;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+    padding-bottom: 15px;
+    flex: 25%;
+}
+
+.right {
+    float: left;
+    padding: 10px;
+    flex: 75%;
+}
+
+
+.city {
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+.container {
+  flex-direction: column;
+}
+}
