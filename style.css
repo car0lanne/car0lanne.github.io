@@ -1,69 +1,93 @@
 body {
-background-image:url('');
-font-family: monospace;
-color: black;
-font-size: 1em;
+    background-image:url('bg.png');
+    font-family: monospace;
+    color: black;
+    font-size: 1em;
 }
 
 a {
-color: blue;
-text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 a:hover {
-color: darkslateblue;
-text-decoration: none;
+    color: darkslateblue;
+    text-decoration: none;
 }
 
 .button {
-background-color: lavender;
-border: none;
-font-family: monospace;
-color: white;
-padding: 16px 16px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 1em;
-margin: 2px 2px;
-transition-duration: 0.4s;
-cursor: pointer;
+    background-color: lavender;
+    border: none;
+    font-family: monospace;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .button {
-background-color: white; 
-color: black; 
-border: 2px solid darkslateblue;
-border-radius: 10px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
 }
 
 .button:hover {
-background-color: darkslateblue;
-color: white;
+    background-color: darkslateblue;
+    color: white;
 }
 
 .container {
     background: ghostwhite;
+    height: 350px;
     max-width: 700px;
     margin: 3em;
-color: black;
-border-radius: 10px;
-outline-color: darkslateblue;
-outline-style: solid;
-outline-width: 5px;
-outline-offset: 0;
-box-shadow: 10px 10px lavender;
+    color: black;
+    border-radius: 10px;
+    outline-color: darkslateblue;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-offset: 0;
+    box-shadow: 10px 10px lavender;
 }
 
 .content {
-padding: 10px 5% 20px 5%;
+    padding: 20px;
 }
 
-
-
+* {
+    box-sizing: border-box;
+}
 
 @media only screen and (min-width: 600px) {
-	.small {
-		max-width: 60%;
-		height: auto;
-	}
+.small {
+    max-width: 60%;
+    height: auto;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+    width: 25%;
+}
+
+.right {
+    float: left;
+    padding: 10px;
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.city {
+    padding: 10px;
+}
