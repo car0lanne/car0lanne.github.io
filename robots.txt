@@ -1,0 +1,233 @@
+User-Agent: *
+Disallow: /
+
+User-Agent: AdIdxBot
+Disallow: /
+
+User-agent: adsbot
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-Agent: AppleBot
+Disallow: /
+
+User-Agent: AppleNewsBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: GPTBot-User
+Disallow: /
+
+User-agent: iaskspider/2.0
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+User-agent: ISSCyberRiskCrawler
+Disallow: /
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: MindSpider
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User agent: MTRobot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: PageThing
+Disallow: /
+
+User-agent: Pandalytics
+Disallow: /
+
+User-agent: PanguBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Pinterestbot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: SemrushBot-BM
+Disallow: /
+
+User-agent: SemrushBot-CT
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Sidetrade indexer bot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: GoogleOther-Image
+Disallow: /
+
+User-agent: GoogleOther-Video
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-Video
+Disallow: /
+
+User-agent: Storebot-Google
+Disallow: /
+
+User-agent: Google-InspectionTool
+Disallow: /
+
+User-agent: APIs-Google
+Disallow: /
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: FeedFetcher-Google
+Disallow: /
+
+User-agent: GoogleProducer
+Disallow: /
+
+User-agent: google-speakr
+Disallow: /
