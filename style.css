@@ -44,7 +44,7 @@ a:hover {
 
 .container {
     background: ghostwhite;
-    height: 350px;
+    height: auto;
     max-width: 700px;
     margin: 3em;
     color: black;
